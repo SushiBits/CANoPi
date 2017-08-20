@@ -94,3 +94,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Release files
+*.pdf
+*.zip
