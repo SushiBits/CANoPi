@@ -164,16 +164,16 @@
 <wire x1="3" y1="30" x2="62" y2="30" width="0" layer="20"/>
 <wire x1="65" y1="27" x2="65" y2="3" width="0" layer="20"/>
 <wire x1="62" y1="0" x2="3" y2="0" width="0" layer="20"/>
-<text x="64.135" y="18.415" size="1.778" layer="21" align="bottom-right">SushiBits
+<text x="64.135" y="20.955" size="1.778" layer="21" align="center-right">SushiBits
 CANoPI M187v1</text>
 <text x="26.67" y="9.525" size="1.778" layer="21" rot="R270" align="center-right">TX</text>
 <text x="29.21" y="9.525" size="1.778" layer="21" rot="R270" align="center-right">RX</text>
 <text x="24.13" y="9.525" size="1.778" layer="21" rot="R270" align="center-right">GND</text>
-<text x="13.335" y="16.51" size="2.54" layer="22" rot="MR0" align="center-right">SushiBits CANoPI M187v1</text>
-<text x="59.055" y="12.7" size="1.778" layer="22" rot="MR0" align="center-left">(c) 2017 Max Chan
+<text x="50.165" y="20.955" size="1.778" layer="22" rot="MR0" align="center-left">(c) 2017 Max Chan
 OSHW. 3-BSDL</text>
-<text x="60.96" y="15.875" size="1.778" layer="21" align="center">+</text>
-<text x="60.96" y="6.985" size="1.778" layer="21" align="center">-</text>
+<text x="58.42" y="16.51" size="1.778" layer="22" rot="MR0" align="center-left">GND</text>
+<text x="58.42" y="13.0175" size="1.778" layer="22" rot="MR0" align="center-left">CANH</text>
+<text x="58.42" y="9.525" size="1.778" layer="22" rot="MR0" align="center-left">CANL</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1438,34 +1438,34 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SCREWTERMINAL-3.5MM-2">
-<description>&lt;h3&gt;Screw Terminal  3.5mm Pitch - 2 Pin PTH&lt;/h3&gt;
+<package name="SCREWTERMINAL-3.5MM-3">
+<description>&lt;h3&gt;Screw Terminal  3.5mm Pitch -3 Pin PTH&lt;/h3&gt;
 &lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;Pin count: 3&lt;/li&gt;
 &lt;li&gt;Pin pitch: 3.5mm/138mil&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=”https://www.sparkfun.com/datasheets/Prototyping/Screw-Terminal-3.5mm.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_02&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;CONN_03&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
-<circle x="2" y="3" radius="0.2828" width="0.127" layer="51"/>
-<wire x1="-1.75" y1="3.4" x2="5.25" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="3.4" x2="5.25" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-2.8" x2="5.25" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-3.6" x2="-1.75" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="3.4" x2="8.75" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="8.75" y1="3.4" x2="8.75" y2="-2.8" width="0.2032" layer="21"/>
+<wire x1="8.75" y1="-2.8" x2="8.75" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="8.75" y1="-3.6" x2="-1.75" y2="-3.6" width="0.2032" layer="21"/>
 <wire x1="-1.75" y1="-3.6" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
 <wire x1="-1.75" y1="-2.8" x2="-1.75" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-2.8" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
+<wire x1="8.75" y1="-2.8" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
 <wire x1="-1.75" y1="-1.35" x2="-2.25" y2="-1.35" width="0.2032" layer="51"/>
 <wire x1="-2.25" y1="-1.35" x2="-2.25" y2="-2.35" width="0.2032" layer="51"/>
 <wire x1="-2.25" y1="-2.35" x2="-1.75" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="3.15" x2="5.75" y2="3.15" width="0.2032" layer="51"/>
-<wire x1="5.75" y1="3.15" x2="5.75" y2="2.15" width="0.2032" layer="51"/>
-<wire x1="5.75" y1="2.15" x2="5.25" y2="2.15" width="0.2032" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.2" diameter="2.032" shape="square"/>
-<pad name="2" x="3.5" y="0" drill="1.2" diameter="2.032"/>
-<text x="-1.27" y="2.54" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="1.27" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<wire x1="8.75" y1="3.15" x2="9.25" y2="3.15" width="0.2032" layer="51"/>
+<wire x1="9.25" y1="3.15" x2="9.25" y2="2.15" width="0.2032" layer="51"/>
+<wire x1="9.25" y1="2.15" x2="8.75" y2="2.15" width="0.2032" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.2" diameter="2.413" shape="square"/>
+<pad name="2" x="3.5" y="0" drill="1.2" diameter="2.413"/>
+<pad name="3" x="7" y="0" drill="1.2" diameter="2.413"/>
+<text x="2.159" y="3.683" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="2.032" y="-4.572" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -2189,9 +2189,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="34.036" y="0.127" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="47.117" y="2.54" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="" x="60.96" y="9.525" smashed="yes" rot="R90">
-<attribute name="NAME" x="63.5" y="15.875" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
-<attribute name="PROD_ID" value="CONN-08399" x="60.96" y="9.525" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="J1" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="" x="60.96" y="9.525" smashed="yes" rot="R90">
+<attribute name="NAME" x="57.15" y="17.78" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="PROD_ID" value="CONN-08288" x="60.96" y="9.525" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SF_ID" value="PRT-08235" x="60.96" y="9.525" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="59.69" y="8.255" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="JP2" library="pinhead" package="2X20" value="RPI-B+" x="32.5" y="26.5" locked="yes" smashed="yes">
@@ -2368,6 +2369,7 @@ design rules under a new name.</description>
 <vertex x="66.04" y="17.78"/>
 <vertex x="43.18" y="17.78"/>
 </polygon>
+<contactref element="J1" pad="3"/>
 </signal>
 <signal name="VCC">
 <contactref element="IC1" pad="1"/>
